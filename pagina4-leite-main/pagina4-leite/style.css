@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+h1 {
+    color: #3498db; /* Azul claro para líquidos */
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.leite-img {
+    display: block;
+    margin: 0 auto;
+    width: 300px; /* Reduzido para copo de leite */
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-box {
+    background-color: #ebf5fb;
+    padding: 15px;
+    border-left: 4px solid #3498db;
+    margin: 25px 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.info-box h3 {
+    margin-top: 0;
+    color: #2980b9;
+    text-align: center;
+}
+
+.info-box ul {
+    padding-left: 20px;
+}
+
+.info-box li {
+    margin-bottom: 8px;
+    list-style-type: none;
+    position: relative;
+    padding-left: 25px;
+}
+
+.info-box li:before {
+    content: "🥛";
+    position: absolute;
+    left: 0;
+}
